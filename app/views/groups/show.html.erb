@@ -1,0 +1,9 @@
+<h1>Groups#show</h1>
+
+<section class="group">
+  <ul>
+    <% @group.teams.each do |team| %>
+      <li class="team"><%= team.name %></li>
+    <% end %>
+  </ul>
+</section>
